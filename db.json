@@ -1,0 +1,41 @@
+{
+  "auxiliar": [],
+  "questoes": [
+    {
+      "id": "1",
+      "pergunta": "2+2 = ",
+      "a": "1",
+      "b": "2",
+      "c": "4",
+      "resposta": "4",
+      "nivelQuestao":  "facil"
+    },
+    {
+      "id": "2",
+      "pergunta": "3+3 = ",
+      "a": "6",
+      "b": "1",
+      "c": "10",
+      "resposta": "6",
+      "nivelQuestao":  "facil"
+    },
+    {
+      "id": "3",
+      "pergunta": "10 * 10 = ",
+      "a": "10",
+      "b": "100",
+      "c": "1000",
+      "resposta": "100",
+      "nivelQuestao":  "media"
+    },
+    {
+      "id": "4",
+      "pergunta": "10^5= ",
+      "a": "100000",
+      "b": "10000",
+      "c": "1000000",
+      "resposta": "100000",
+      "nivelQuestao":  "dificil"
+    }
+  ]
+}
