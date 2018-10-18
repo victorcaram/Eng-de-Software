@@ -24,7 +24,7 @@ if($funcao === "post"){
   }
 };
 if($funcao === "get"){
-  $sql = "SELECT * FROM `questoes` WHERE 1";
+  $sql = "SELECT * FROM `questoes` ORDER BY RAND() LIMIT 1";
   $result = $conn->query($sql);
   if ($result->num_rows > 0) {
      while($row = $result->fetch_array(MYSQLI_ASSOC)) {
